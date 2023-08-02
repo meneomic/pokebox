@@ -25,7 +25,7 @@ SECRET_KEY = 'g3p%cgrcjul#7iyralp49388)e@!^c_c!tcoeo4se5rx8u_gmi'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [*]
 
 
 # Application definition
@@ -129,7 +129,7 @@ JET_SIDE_MENU_COMPACT = True
 # SCANS
 
 SCANS_NMAP_COMMAND = ['sudo', 'nmap']
-SCANS_NETWORK = ['192.168.1.0/24']
+SCANS_NETWORK = ['192.168.0.0/24']
 
 # NOTIFICATIONS
 
